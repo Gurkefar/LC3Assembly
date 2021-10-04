@@ -1,0 +1,13 @@
+0.6
+2018.2
+Jul 26 2018
+19:36:16
+C:/Users/s205129/project_1/project_1.srcs/sources_1/imports/LC3Zybo/BtnToggle.vhd,1465229692,vhdl,C:/Users/s205129/project_1/project_1.srcs/sources_1/imports/LC3Zybo/lc3_debug.vhd,,,btntoggle,,,,,,,,
+C:/Users/s205129/project_1/project_1.srcs/sources_1/imports/LC3Zybo/debounce.vhd,1465040650,vhdl,C:/Users/s205129/project_1/project_1.srcs/sources_1/imports/LC3Zybo/lc3_debug.vhd;C:/Users/s205129/project_1/project_1.srcs/sources_1/imports/LC3Zybo/top.vhd,,,debounce,,,,,,,,
+C:/Users/s205129/project_1/project_1.srcs/sources_1/imports/LC3Zybo/lc3_computer.vhd,1624008299,vhdl,C:/Users/s205129/project_1/project_1.srcs/sources_1/imports/LC3Zybo/student_code.vhd,,,lc3_computer,,,,,,,,
+C:/Users/s205129/project_1/project_1.srcs/sources_1/imports/LC3Zybo/lc3_debug.vhd,1465229550,vhdl,C:/Users/s205129/project_1/project_1.srcs/sources_1/imports/LC3Zybo/student_code.vhd,,,lc3_debug,,,,,,,,
+C:/Users/s205129/project_1/project_1.srcs/sources_1/imports/LC3Zybo/lc3_wrapper_multiplexers.vhd,1465042730,vhdl,C:/Users/s205129/project_1/project_1.srcs/sources_1/imports/LC3Zybo/lc3_computer.vhd,,,lc3_wrapper_multiplexers,,,,,,,,
+C:/Users/s205129/project_1/project_1.srcs/sources_1/imports/LC3Zybo/student_code.vhd,1465227930,vhdl,C:/Users/s205129/project_1/project_1.srcs/sources_1/imports/LC3Zybo/top.vhd,,,student_code,,,,,,,,
+C:/Users/s205129/project_1/project_1.srcs/sources_1/imports/LC3Zybo/top.vhd,1466165166,vhdl,,,,lc3zybo_top,,,,,,,,
+C:/Users/s205129/project_1/project_1.srcs/sources_1/imports/LC3Zybo/zybovios_wrapper.vhd,1465229742,vhdl,C:/Users/s205129/project_1/project_1.srcs/sources_1/imports/LC3Zybo/top.vhd,,,zyboviose_wrapper,,,,,,,,
+C:/Users/s205129/project_1/project_1.srcs/sources_1/new/single_port_RAM_sync.vhd,1623676906,vhdl,C:/Users/s205129/project_1/project_1.srcs/sources_1/imports/LC3Zybo/lc3_computer.vhd,,,xilinx_one_port_ram_sync,,,,,,,,

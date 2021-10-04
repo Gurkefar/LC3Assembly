@@ -1,0 +1,56 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.1 (64-bit)
+# SW Build 2288692 on Thu Jul 26 18:24:02 MDT 2018
+# IP Build 2289599 on Thu Jul 26 21:09:20 MDT 2018
+# Start of session at: Thu Jun 10 16:14:14 2021
+# Process ID: 15168
+# Current directory: C:/Users/s205129/project_1/project_1.runs/impl_1
+# Command line: vivado.exe -log LC3Zybo_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source LC3Zybo_top.tcl -notrace
+# Log file: C:/Users/s205129/project_1/project_1.runs/impl_1/LC3Zybo_top.vdi
+# Journal file: C:/Users/s205129/project_1/project_1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source LC3Zybo_top.tcl -notrace
+Command: link_design -top LC3Zybo_top -part xc7z010clg400-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 359 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2.1
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/s205129/project_1/project_1.srcs/constrs_1/imports/Downloads/ZyboVIO.xdc]
+Finished Parsing XDC File [C:/Users/s205129/project_1/project_1.srcs/constrs_1/imports/Downloads/ZyboVIO.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+7 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 600.199 ; gain = 335.531
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net Inst_student_code/Inst_lc3_computer/lc3_m/lc3_1/WE has multiple drivers: Inst_student_code/Inst_lc3_computer/lc3_m/lc3_1/WE/Q, and Inst_student_code/Inst_lc3_computer/WE_reg/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net Inst_student_code/Inst_lc3_computer/unit_16K_by_16/dout[0] has multiple drivers: Inst_student_code/Inst_lc3_computer/unit_16K_by_16/ram_reg_1_0/DOADO[0], and Inst_student_code/Inst_lc3_computer/unit_16K_by_16/lc3_1_i_11/O.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net Inst_student_code/Inst_lc3_computer/unit_16K_by_16/dout[1] has multiple drivers: Inst_student_code/Inst_lc3_computer/unit_16K_by_16/ram_reg_1_1/DOADO[0], and Inst_student_code/Inst_lc3_computer/unit_16K_by_16/lc3_1_i_10/O.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net Inst_student_code/Inst_lc3_computer/unit_16K_by_16/dout[2] has multiple drivers: Inst_student_code/Inst_lc3_computer/unit_16K_by_16/ram_reg_1_2/DOADO[0], and Inst_student_code/Inst_lc3_computer/unit_16K_by_16/lc3_1_i_9/O.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net Inst_student_code/Inst_lc3_computer/unit_16K_by_16/dout[3] has multiple drivers: Inst_student_code/Inst_lc3_computer/unit_16K_by_16/ram_reg_1_3/DOADO[0], and Inst_student_code/Inst_lc3_computer/unit_16K_by_16/lc3_1_i_8/O.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net Inst_student_code/Inst_lc3_computer/unit_16K_by_16/dout[4] has multiple drivers: Inst_student_code/Inst_lc3_computer/unit_16K_by_16/ram_reg_1_4/DOADO[0], and Inst_student_code/Inst_lc3_computer/unit_16K_by_16/lc3_1_i_7/O.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net Inst_student_code/Inst_lc3_computer/unit_16K_by_16/dout[5] has multiple drivers: Inst_student_code/Inst_lc3_computer/unit_16K_by_16/ram_reg_1_5/DOADO[0], and Inst_student_code/Inst_lc3_computer/unit_16K_by_16/lc3_1_i_6/O.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net Inst_student_code/Inst_lc3_computer/unit_16K_by_16/dout[6] has multiple drivers: Inst_student_code/Inst_lc3_computer/unit_16K_by_16/ram_reg_1_6/DOADO[0], and Inst_student_code/Inst_lc3_computer/unit_16K_by_16/lc3_1_i_5/O.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net Inst_student_code/Inst_lc3_computer/unit_16K_by_16/dout[7] has multiple drivers: Inst_student_code/Inst_lc3_computer/unit_16K_by_16/ram_reg_1_7/DOADO[0], and Inst_student_code/Inst_lc3_computer/unit_16K_by_16/lc3_1_i_4/O.
+INFO: [Project 1-461] DRC finished with 9 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado_Tcl 4-78] Error(s) found during DRC. Opt_design not run.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.862 . Memory (MB): peak = 609.500 ; gain = 9.301
+INFO: [Common 17-83] Releasing license: Implementation
+12 Infos, 0 Warnings, 0 Critical Warnings and 10 Errors encountered.
+opt_design failed
+ERROR: [Common 17-39] 'opt_design' failed due to earlier errors.
+
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 10 16:14:30 2021...

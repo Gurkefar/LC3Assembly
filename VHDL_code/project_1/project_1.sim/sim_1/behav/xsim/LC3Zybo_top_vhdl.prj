@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_1.srcs/sources_1/imports/LC3Zybo/BtnToggle.vhd" \
+"../../../../project_1.srcs/sources_1/imports/LC3Zybo/debounce.vhd" \
+"../../../../project_1.srcs/sources_1/imports/LC3Zybo/lc3_wrapper_multiplexers.vhd" \
+"../../../../project_1.srcs/sources_1/new/single_port_RAM_sync.vhd" \
+"../../../../project_1.srcs/sources_1/imports/LC3Zybo/lc3_computer.vhd" \
+"../../../../project_1.srcs/sources_1/imports/LC3Zybo/lc3_debug.vhd" \
+"../../../../project_1.srcs/sources_1/imports/LC3Zybo/student_code.vhd" \
+"../../../../project_1.srcs/sources_1/imports/LC3Zybo/zybovios_wrapper.vhd" \
+"../../../../project_1.srcs/sources_1/imports/LC3Zybo/top.vhd" \
+
+# Do not sort compile order
+nosort

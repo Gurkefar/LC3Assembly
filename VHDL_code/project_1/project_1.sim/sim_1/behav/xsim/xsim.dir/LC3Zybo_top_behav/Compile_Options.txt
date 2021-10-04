@@ -1,0 +1,1 @@
+-wto "3ba074204b3044fcb44406329a0ded40" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "LC3Zybo_top_behav" "xil_defaultlib.LC3Zybo_top" -log "elaborate.log" 

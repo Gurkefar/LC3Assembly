@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.1 (64-bit)
+# SW Build 2288692 on Thu Jul 26 18:24:02 MDT 2018
+# IP Build 2289599 on Thu Jul 26 21:09:20 MDT 2018
+# Start of session at: Thu Jun 10 16:09:36 2021
+# Process ID: 14760
+# Current directory: C:/Users/s205129/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log LC3Zybo_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source LC3Zybo_top.tcl
+# Log file: C:/Users/s205129/project_1/project_1.runs/synth_1/LC3Zybo_top.vds
+# Journal file: C:/Users/s205129/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source LC3Zybo_top.tcl -notrace
